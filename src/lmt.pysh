@@ -1,0 +1,8 @@
+def env():
+    from pysh import pysh
+    pysh.mkdir(".lmt")
+    pysh.hid(".lmt")
+    pysh.cd(".lmt")
+    pysh.mkdir("pkgs")
+    pysh.cd("pkgs")
+    pysh.touch("dnu")
