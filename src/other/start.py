@@ -7,6 +7,6 @@ if usrOS != "Windows":
         print("An Error Has Occured, Closing.")
 else:
     try:
-        exec(open("src/pysh.py").read())
+        exec(open("src\\pysh.py").read())
     except:
         print("An Error Has Occured, Closing.")
